@@ -1,0 +1,180 @@
+/* Laptops & Mobile */
+
+@media (max-width: 1240px) {
+
+}
+
+@media (max-width: 999px) {
+
+
+
+}
+
+@media (max-width: 760px) {
+
+    .content{
+        padding: 12.50vw 0;
+    }
+   
+    .container{
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    ._pb{
+        padding: 0 0 9.38vw;
+    }
+
+    .title{
+
+        &__main{
+           
+            & h2{
+                font-size: 6.25vw;
+                margin: 0 0 4.69vw;
+            }
+        }
+
+        &__second{
+
+            & h3{
+                font-size: 5.63vw;
+                margin: 0 0 3.13vw;
+            }
+
+            &-icon{
+                padding: 0 0 0 7.81vw;
+
+                &::before{
+                    width: 6.25vw;
+                    height: 6.25vw;
+                }
+            }
+        }
+    }
+
+    .text{
+
+        &__main{
+
+            & p{
+                font-size: 5vw;
+                margin: 0 0 3.13vw;
+            }
+        }
+    }
+
+    .time{
+
+        &__segment{
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 3.13vw;
+            margin: 0 0 3.13vw;
+        }
+
+        &__footnotes{
+
+            & small{
+                font-size: 5vw;
+            }
+        }
+    }
+
+    .select{
+        max-width: 100%;
+
+        &:nth-child(1){
+
+            .select{
+
+                &__header{
+                    padding: 3.13vw 3.13vw 3.13vw 10.94vw;
+
+                    &::before{
+                        font-size: 5.63vw;
+                        top: 50%;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(2){
+
+            .select{
+
+                &__header{
+                    padding: 3.13vw 3.13vw 3.13vw 14.06vw;
+
+                    &::before{
+                        font-size: 5.63vw;
+                        top: 50%;
+                    }
+                }
+            }
+        }
+
+        &__current{
+            font-size: 5.63vw;
+        }
+
+        &__icon{
+            width: 6.25vw;
+        }
+
+        &__body{
+            top: 115%;
+        }
+
+        &__item{
+            font-size: 5.63vw;
+            padding: 3.13vw;
+        }
+    }
+
+    .checkbox{
+        margin: 3.13vw 0 0 0;
+
+        &__input{
+            width: 4.69vw;
+            height: 4.69vw;
+
+            &+label{
+                font-size: 5vw;
+
+                &::before{
+                    width: 4.69vw;
+                    height: 4.69vw;
+                    margin-right: 3.13vw;
+                }
+            }
+        }
+    }
+
+    .id{
+
+        &__wrapper{
+            gap: 6.25vw;
+        }
+
+        &__device{
+            font-size: 5vw;
+        }
+
+        &__number{
+            font-size: 5vw;
+
+            &::before{
+                width: 0.94vw;
+                height: 0.94vw;
+                left: -3.75vw;
+            }
+        }
+    }
+
+}   
+
+@media (max-width: 480px) { 
+
+}
